@@ -1,9 +1,9 @@
-# Interplay-RS-and-Homophily-
+# Interplay-RS-and-Homophily
 
 Project addressing the interplay between Recommender Systems and Homophily in Network of Users. 
 The processed data has been retrieved from the Movielens Dataset (https://movielens.org/).
 
-## Introuduction and Motivation of the project
+## Introduction and Motivation of the project
 
 Over the last decades, research on Recommender Systems (RS) has focused on models
 and algorithms that provide personalized suggestions to customers with increasing
