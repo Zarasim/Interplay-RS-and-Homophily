@@ -91,7 +91,7 @@ def graph_reccomendation_col(Gs,Gs_user,df_movie,users,movies,start_date = datet
 	
 	# Store statistics 
 	stats = defaultdict(list)
-	start_time = time.clock()
+	start_time = time.perf_counter()
 	
 	
 	for i in np.arange(id_min,len(Ns)-1):
@@ -171,7 +171,7 @@ def graph_reccomendation_col(Gs,Gs_user,df_movie,users,movies,start_date = datet
 			# 3) Year of release is before the current time
 			# 4) Genre is one of the most preferred by user
 			
-			mov = df[(df.genres.str.contains(Ns_user[i].node[u]['genre1']))| (df.genres.str.contains(Ns_user[i].node[u]['genre2']))|(df.genres.str.contains(Ns_user[i].node[u]['genre3']))]
+			mov = df[(df.genres.str.contains(Ns_user[i].nodes[u]['genre1']))| (df.genres.str.contains(Ns_user[i].nodes[u]['genre2']))|(df.genres.str.contains(Ns_user[i].nodes[u]['genre3']))]
 			mov = list(set(df['movieId']).difference(l_items).difference(list_all_items[u]))
 			
 			movie_cat.append(len(mov))
