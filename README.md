@@ -35,3 +35,8 @@ to watch 40% of movies assigned by the RS. This conclusion is not significant as
 contains too few entries, but it can to be validated on bigger
 datasets and with more advanced models, which might account for demographic and other 
 personal information to provide the best recommendations.
+
+
+
+The abstract of the Thesis can be found at the following link: 
+https://sia.unito.it/studenti/intesi/Ricerca_tesi_libera/ricerca_tesi_dettaglio.asp?id_upload=161414&cdl_tesi=&cdl=&matricola=779301
